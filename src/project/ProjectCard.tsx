@@ -8,12 +8,13 @@ function formatDescription(description: string): string {
 interface ProjectCardProps {
   // chiều hỏi a lùn
   project: Project;
+  onEdit : (project :Project) => void;
 }
 function ProjectCard(props: ProjectCardProps) {
   // chiều hỏi a lùn
-  const { project } = props;
+  const { project , onEdit } = props;
   const handleEditClick = (projectBeingEdit: Project) => {
-    console.log(projectBeingEdit);
+    onEdit(projectBeingEdit);
   };
   return (
     <div>
