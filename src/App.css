@@ -1,7 +1,21 @@
-header {
+.header {
   height: 5.1875rem;
 }
 
-a.button.active {
+.a.button.active {
   border: 1px solid var(--fore-color);
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  justify-content: space-between;
+
+}
+.colm-sm{
+  margin-right: 20px;
+}
+.form{
+  min-width: 300px;
 }
