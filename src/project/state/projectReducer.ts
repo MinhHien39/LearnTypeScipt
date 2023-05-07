@@ -26,8 +26,10 @@ export function projectReducer(
 ) {
   switch (action.type) {
     case LOAD_PROJECTS_REQUEST:
+      console.log("Load Project Request");
       return { ...state, loading: true, error: "" };
     case LOAD_PROJECTS_SUCCESS:
+      console.log("Load Project Success");
       let projects: Project[];
       const { page } = action.payload;
       if (page === 1) {
@@ -53,14 +55,25 @@ export function projectReducer(
           projects: [...state.projects, action.payload],
         };
       } else {
-        return {
+        const projectList = state.projects.map((project: Project) => {
+          if (action.payload.id === project.id) {
+            console.log(action.payload);
+            console.log(action.payload.id, project.id);
+          console.log(Object.assign({}, project, action.payload));
+          }
+
+          return project.id === action.payload.id
+            ? Object.assign({}, project, action.payload)
+            : project;
+        });
+        console.log("Edit Project");
+
+        const saveProject = {
           ...state,
-          projects: state.projects.map((project: Project) => {
-            return project.id === action.payload.id
-              ? Object.assign({}, project, action.payload)
-              : project;
-          }),
+          projects: projectList,
         };
+        console.log(projectList);
+        return saveProject;
       }
 
     case SAVE_PROJECT_FAILURE:

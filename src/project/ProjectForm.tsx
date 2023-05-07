@@ -28,6 +28,7 @@ function ProjectForm({
   const handleSubmit = (event: SyntheticEvent) => {
     event.preventDefault();
     if (!isValid()) return;
+    console.log('Save Project State');
     // onSave(new Project({ name: "Updated Project" }));
     dispatch(saveProject(project))
   };

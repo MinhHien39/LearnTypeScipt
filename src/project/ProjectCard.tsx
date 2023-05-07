@@ -19,8 +19,8 @@ function ProjectCard(props: ProjectCardProps) {
   };
   return (
     <div>
-      <img src={project.imageUrl} alt={project.name} />
-      <section className="section dark">
+      <img className = 'rounded' src={project.imageUrl} alt={project.name} />
+      <section className="section-dark">
         <Link to={"/projects/" + project.id}>
           <h5>{project.name}</h5>
           <p>{formatDescription(project.description)}</p>

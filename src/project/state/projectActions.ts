@@ -36,13 +36,17 @@ export function saveProject(
   project: Project
 ): ThunkAction<void, ProjectState, null, Action<string>> {
   return (dispatch: any) => {
+    console.log('Save Prject Request');
     dispatch({ type: SAVE_PROJECT_REQUEST });
     return projectAPI
       .put(project)
       .then((data) => {
-        dispatch({ type: SAVE_PROJECT_SUCCESS, payload: data });
+        console.log(data)
+        console.log('Save Project Successful'); 
+        dispatch({ type: SAVE_PROJECT_SUCCESS, payload: project });
       })
       .catch((error) => {
+        console.log('Save project error');
         dispatch({ type: SAVE_PROJECT_FAILURE, payload: error });
       });
   };

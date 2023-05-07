@@ -7,15 +7,31 @@
 }
 
 .row{
-  display: flex;
-  align-items: center;
-  -webkit-justify-content: space-around;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 35rem 35rem 35rem;
+  grid-gap: 1rem;
+  width: auto;
+  height: auto;
 
 }
-.colm-sm{
-  margin-right: 20px;
+.cols-sm{
+  margin-left: 10px;
+  width: auto;
+  border-style: solid;
+  border-color: silver;
+  background-color: silver;
+  padding: 10px;
 }
 .form{
   min-width: 300px;
+}
+.section-dark{
+  align-items: center;
+  display: inline-block;
+  position: relative;
+}
+.rounded{
+  height: auto;
+  width: 100%;
+  object-fit: cover;
 }

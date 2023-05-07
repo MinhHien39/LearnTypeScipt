@@ -41,34 +41,13 @@
       "isActive": true
     },
     {
-      "id": 5,
-      "name": "Crona Inc",
-      "description": "Monitored explicit methodology. Rem quos maxime amet autem beatae quisquam excepturi sint velit.",
-      "imageUrl": "/assets/placeimg_500_300_arch5.jpg",
-      "contractTypeId": 1,
-      "contractSignedOn": "2016-11-14T19:19:53.624Z",
-      "budget": 31350,
-      "isActive": true
+      "id": 5
     },
     {
-      "id": 6,
-      "name": "Breitenberg - Mitchell",
-      "description": "Profound upward-trending product. Neque necessitatibus quia aut autem suscipit laborum eos saepe veritatis.",
-      "imageUrl": "/assets/placeimg_500_300_arch10.jpg",
-      "contractTypeId": 2,
-      "contractSignedOn": "2015-03-05T17:00:16.696Z",
-      "budget": 67030,
-      "isActive": false
+      "id": 6
     },
     {
-      "id": 7,
-      "name": "Christiansen LLC",
-      "description": "Customer-focused composite implementation. Rerum ullam est voluptate hic eligendi autem rerum cum et.",
-      "imageUrl": "/assets/placeimg_500_300_arch9.jpg",
-      "contractTypeId": 3,
-      "contractSignedOn": "2015-04-14T19:46:53.146Z",
-      "budget": 98600,
-      "isActive": true
+      "id": 7
     },
     {
       "id": 8,
@@ -131,14 +110,7 @@
       "isActive": false
     },
     {
-      "id": 14,
-      "name": "Bruen and Sons",
-      "description": "Switchable composite strategy. Non accusamus quo ipsam animi unde quas ut et voluptate.",
-      "imageUrl": "/assets/placeimg_500_300_arch8.jpg",
-      "contractTypeId": 3,
-      "contractSignedOn": "2014-08-19T07:03:27.419Z",
-      "budget": 80726,
-      "isActive": false
+      "id": 14
     },
     {
       "id": 15,
@@ -231,14 +203,7 @@
       "isActive": false
     },
     {
-      "id": 24,
-      "name": "Carroll - O'Keefe",
-      "description": "Implemented foreground instruction set. Dolores temporibus libero non quos voluptas quis sapiente dolores deserunt.",
-      "imageUrl": "/assets/placeimg_500_300_arch3.jpg",
-      "contractTypeId": 7,
-      "contractSignedOn": "2018-01-11T17:09:55.953Z",
-      "budget": 36862,
-      "isActive": true
+      "id": 24
     },
     {
       "id": 25,
@@ -311,14 +276,7 @@
       "isActive": false
     },
     {
-      "id": 32,
-      "name": "Daniel, Howell and Nader",
-      "description": "Horizontal zero administration time-frame. Hic rerum est quo id aut adipisci odio ipsa ab.",
-      "imageUrl": "/assets/placeimg_500_300_arch5.jpg",
-      "contractTypeId": 3,
-      "contractSignedOn": "2018-01-24T18:59:39.035Z",
-      "budget": 80065,
-      "isActive": true
+      "id": 32
     },
     {
       "id": 33,
@@ -451,14 +409,7 @@
       "isActive": true
     },
     {
-      "id": 46,
-      "name": "Bernier and Sons",
-      "description": "User-friendly directional standardization. Temporibus qui laudantium ipsam sapiente ut eum ab omnis quasi.",
-      "imageUrl": "/assets/placeimg_500_300_arch6.jpg",
-      "contractTypeId": 1,
-      "contractSignedOn": "2018-01-17T21:58:28.876Z",
-      "budget": 94076,
-      "isActive": true
+      "id": 46
     },
     {
       "id": 47,
@@ -491,14 +442,7 @@
       "isActive": false
     },
     {
-      "id": 50,
-      "name": "Crist, Bergnaum and Sauer",
-      "description": "User-centric multimedia capacity. Quia quo eveniet voluptatem sunt totam omnis voluptatem distinctio tempore.",
-      "imageUrl": "/assets/placeimg_500_300_arch4.jpg",
-      "contractTypeId": 6,
-      "contractSignedOn": "2011-06-18T04:02:32.471Z",
-      "budget": 66873,
-      "isActive": true
+      "id": 50
     },
     {
       "id": 51,
@@ -521,24 +465,10 @@
       "isActive": false
     },
     {
-      "id": 53,
-      "name": "Cummerata, Jast and Bartell",
-      "description": "Persistent dedicated structure. Mollitia commodi sit quaerat et tempora asperiores ex sit quos.",
-      "imageUrl": "/assets/placeimg_500_300_arch5.jpg",
-      "contractTypeId": 2,
-      "contractSignedOn": "2015-02-06T11:05:47.787Z",
-      "budget": 33629,
-      "isActive": false
+      "id": 53
     },
     {
-      "id": 54,
-      "name": "Anderson LLC",
-      "description": "Diverse incremental algorithm. Expedita laudantium sit quisquam sit nobis eum nam ea natus.",
-      "imageUrl": "/assets/placeimg_500_300_arch10.jpg",
-      "contractTypeId": 2,
-      "contractSignedOn": "2015-01-21T07:03:49.836Z",
-      "budget": 74221,
-      "isActive": false
+      "id": 54
     },
     {
       "id": 55,
@@ -661,24 +591,10 @@
       "isActive": false
     },
     {
-      "id": 67,
-      "name": "Bednar - Yundt",
-      "description": "Reactive secondary protocol. Cumque fugiat reprehenderit commodi et ea voluptas aliquid facere placeat.",
-      "imageUrl": "/assets/placeimg_500_300_arch6.jpg",
-      "contractTypeId": 4,
-      "contractSignedOn": "2014-07-16T21:38:04.631Z",
-      "budget": 59682,
-      "isActive": false
+      "id": 67
     },
     {
-      "id": 68,
-      "name": "Collier and Sons",
-      "description": "Organic background support. Molestiae in itaque doloremque magnam et placeat vero accusamus quisquam.",
-      "imageUrl": "/assets/placeimg_500_300_arch1.jpg",
-      "contractTypeId": 4,
-      "contractSignedOn": "2015-11-26T08:23:22.651Z",
-      "budget": 94900,
-      "isActive": false
+      "id": 68
     },
     {
       "id": 69,
@@ -731,14 +647,7 @@
       "isActive": true
     },
     {
-      "id": 74,
-      "name": "Armstrong, Crona and Ziemann",
-      "description": "Switchable bifurcated task-force. Hic sed at et id et et qui quis dolores.",
-      "imageUrl": "/assets/placeimg_500_300_arch6.jpg",
-      "contractTypeId": 2,
-      "contractSignedOn": "2012-05-15T12:41:51.113Z",
-      "budget": 91566,
-      "isActive": true
+      "id": 74
     },
     {
       "id": 75,
@@ -761,14 +670,7 @@
       "isActive": true
     },
     {
-      "id": 77,
-      "name": "Abshire and Sons",
-      "description": "Ergonomic mission-critical knowledge user. Consequatur pariatur eos molestiae qui aut dolorem laudantium nesciunt doloribus.",
-      "imageUrl": "/assets/placeimg_500_300_arch6.jpg",
-      "contractTypeId": 6,
-      "contractSignedOn": "2018-08-16T18:49:06.477Z",
-      "budget": 98123,
-      "isActive": true
+      "id": 77
     },
     {
       "id": 78,
@@ -801,14 +703,7 @@
       "isActive": true
     },
     {
-      "id": 81,
-      "name": "Beatty, Boehm and West",
-      "description": "Operative high-level emulation. Quos qui dolorum aut voluptatem rerum vel provident necessitatibus dicta.",
-      "imageUrl": "/assets/placeimg_500_300_arch4.jpg",
-      "contractTypeId": 5,
-      "contractSignedOn": "2012-08-09T13:45:53.932Z",
-      "budget": 75030,
-      "isActive": true
+      "id": 81
     },
     {
       "id": 82,
@@ -941,14 +836,7 @@
       "isActive": true
     },
     {
-      "id": 95,
-      "name": "Armstrong - Hands",
-      "description": "Persistent 3rd generation capability. Sint omnis asperiores voluptas sapiente delectus blanditiis earum ut voluptatem.",
-      "imageUrl": "/assets/placeimg_500_300_arch6.jpg",
-      "contractTypeId": 2,
-      "contractSignedOn": "2010-09-24T21:02:41.601Z",
-      "budget": 38853,
-      "isActive": false
+      "id": 95
     },
     {
       "id": 97,
