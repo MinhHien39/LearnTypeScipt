@@ -1,0 +1,31 @@
+name: Auto Merge Develop to Master
+
+on:
+  # Kích hoạt workflow thủ công
+  workflow_dispatch:
+  # Lên lịch chạy workflow mỗi ngày
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Clone repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          ref: develop # Lấy code từ nhánh develop
+
+      # 2. Cấu hình Git
+      - name: Configure Git
+        run: |
+          git config user.name "MinhHien39"
+          git config user.email "tranminhhien06072001@gmail.com"
+
+      # 3. Merge develop vào main
+      - name: Merge Develop to Master
+        run: |
+          git checkout master
+          git merge develop --no-ff --no-edit
+          git push origin master
